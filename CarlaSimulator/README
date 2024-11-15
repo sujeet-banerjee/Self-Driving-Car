@@ -1,0 +1,23 @@
+CARLA Simulator
+===============
+
+Thanks for downloading CARLA!
+
+Execute "CarlaUE4.sh" to launch CARLA.
+
+For more details and running options please refer to our online documentation
+
+http://carla.readthedocs.io
+
+
+CourseraFinalProject_1
+======================
+>>> Sim Server
+D:
+cd \tools\Carla\CarlaSimulator
+CarlaUE4.exe /Game/Maps/RaceTrack -windowed -carla-server -benchmark -fps=30
+
+>>> Python Client
+D:
+cd \tools\Carla\CarlaSimulator\PythonClient\Course1FinalProject
+python module_7.py
